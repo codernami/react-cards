@@ -1,6 +1,13 @@
+import Card from './components/Card'
+import content from './content'
+
 function App() {
   return (
-    <h1>Hello</h1>
+    <div>
+    {content.map((item, index) => (
+      <Card key= {index} item= {item} />
+    ))}
+    </div>
   );
 }
 
