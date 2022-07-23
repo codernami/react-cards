@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-	  @media (min-width: 768px) {
+	margin: 5rem 1rem;
+
+	@media (min-width: 1024px) {
 	  	display: flex;
-	  }
+	}
 
 `

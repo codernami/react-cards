@@ -7,7 +7,7 @@ const content = [
 },
 {
 	id: 2,
-	title: 'SUVs',
+	title: 'SUVS',
 	text: 'Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.',
 	image: 'icon-suvs.svg',
 },

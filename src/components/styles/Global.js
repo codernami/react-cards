@@ -6,4 +6,14 @@ export const GlobalStyles = createGlobalStyle`
 		padding: 0;
 		box-sizing: border-box;
 	}
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background-color: hsl(0, 0%, 95%);
+		font-family: 'Lexend Deca', sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+	}
 `
