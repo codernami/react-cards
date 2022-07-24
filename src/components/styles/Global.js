@@ -14,6 +14,9 @@ export const GlobalStyles = createGlobalStyle`
 		background-color: hsl(0, 0%, 95%);
 		font-family: 'Lexend Deca', sans-serif;
 		font-size: 15px;
-		font-weight: 400;
+	}
+	img {
+		display: block;
+		max-width: 100%;
 	}
 `
