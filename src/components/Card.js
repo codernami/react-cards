@@ -2,12 +2,15 @@ import { StyledCard } from './styles/Card.styled'
 import { Button } from './styles/Button.styled'
 
 export default function Card({
-	item: {id, title, text, image, bgColor, btnColor}
+	item: {id, title, text, image, description, bgColor, btnColor}
 }) {
 	return (
 		<StyledCard bg = {bgColor}>
 			<div>
-        <img src = {`./images/${image}`}/>
+        <img 
+        	src = {`./images/${image}`}
+        	alt= {description}
+        />
       </div>
 			<h2>
 				{title}
