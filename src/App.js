@@ -8,9 +8,9 @@ function App() {
     <>
     <GlobalStyles/>
     <Container>
-    {content.map((item, index) => (
-      <Card key= {index} item= {item} />
-    ))}
+      {content.map((item, index) => (
+        <Card key= {index} item= {item} />
+      ))}
     </Container>
     </>
   );
