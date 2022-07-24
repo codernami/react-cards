@@ -6,7 +6,7 @@ export const StyledCard = styled.article`
 	justify-content: space-between;
 	width: 330px;
 	height: 440px;
-	padding: 2.3rem;
+	padding: 2.5rem;
 	background-color: ${({ bg }) => bg};
 
 	h2 {
@@ -18,6 +18,12 @@ export const StyledCard = styled.article`
 	}
 	p {
 		color: hsla(0, 0%, 100%, 0.75);
-		font-size: 1.2rem;
+		font-size: 1rem;
+		line-height: 1.5;
+		font-weight: normal;
+
+		@media (min-width: 1024px) {
+			font-size: 1.15rem;
+		}	
 	}	
 `
